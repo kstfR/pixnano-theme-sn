@@ -22,3 +22,6 @@
 // ext.json
 //	"url": "http://localhost:8005/src/main.css",
 //	"latest_url": "http://localhost:8005/ext.json",
+
+// git tag v0.0.1
+// git push origin v0.0.1

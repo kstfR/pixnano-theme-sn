@@ -9,8 +9,8 @@
 	"latest_url": "https://cdn.jsdelivr.net/gh/kstfR/pixnano-theme-sn@latest/ext.json",
 	"dock_icon": {
 		"type": "circle",
-		"background_color": "#ff00ff",
+		"background_color": "#0c0c0c",
 		"foreground_color": "#000000",
-		"border_color": "#bd93f9"
+		"border_color": "#c32f27"
 	}
 }
