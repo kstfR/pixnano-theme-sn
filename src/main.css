@@ -1,5 +1,12 @@
+/* LIGHT Theme */
 :root {
-	--background: #1e1f24;
+	--background: #e0f2e9;
+	--color: #0c0c0c;
+	--color--accent: #f2c57c;
+	--error: #c32f27;
+	--success: #09814a;
+
+	/* --background: #1e1f24; */
 	--secondary-background: #1e1f24;
 	--current-line: #44475a;
 	--foreground: #ffec21;
@@ -15,48 +22,30 @@
 	--darker-background: rgb(25, 26, 33);
 	--darker-background-border: rgb(32, 34, 49);
 
-	--sn-stylekit-accessory-tint-color-1: var(--purple);
 	--sn-stylekit-accessory-tint-color-2: var(--pink);
 	--sn-stylekit-accessory-tint-color-3: var(--orange);
 	--sn-stylekit-accessory-tint-color-4: var(--cyan);
 	--sn-stylekit-accessory-tint-color-5: var(--green);
 	--sn-stylekit-accessory-tint-color-6: var(--yellow);
 	--highlight-color: var(--comment);
-	--sn-component-foreground-color: var(--foreground);
 	--sn-component-background-color: var(--background);
 	--sn-component-foreground-highlight-color: var(--highlight-color);
 	--sn-component-outer-border-color: var(--comment);
 	--sn-component-inner-border-color: var(--foreground);
 	--sn-stylekit-shadow-color: var(--comment);
-	--sn-stylekit-info-color: var(--pink);
+	--sn-stylekit-info-color: var(--color--accent);
 	--sn-stylekit-info-contrast-color: var(--background);
-	--sn-stylekit-neutral-color: var(--purple);
-	--sn-stylekit-neutral-contrast-color: var(--foreground);
 	--sn-stylekit-success-color: var(--green);
 	--sn-stylekit-success-contrast-color: var(--background);
 	--sn-stylekit-warning-color: var(--orange);
 	--sn-stylekit-warning-contrast-color: var(--background);
 	--sn-stylekit-danger-color: var(--red);
 	--sn-stylekit-danger-contrast-color: var(--foreground);
-	--sn-stylekit-editor-background-color: var(--sn-stylekit-background-color);
 	--sn-stylekit-editor-foreground-color: var(--sn-stylekit-foreground-color);
-	--sn-stylekit-background-color: var(--background);
-	--sn-stylekit-foreground-color: var(--foreground);
-	--sn-stylekit-border-color: var(--darker-background-border);
-	--sn-stylekit-contrast-background-color: var(--bar-color);
-	--sn-stylekit-contrast-foreground-color: var(--foreground);
 	--sn-stylekit-contrast-border-color: var(--footer-border);
-	--sn-stylekit-secondary-background-color: var(--secondary-background);
-	--sn-stylekit-secondary-foreground-color: var(--foreground);
-	--sn-stylekit-secondary-border-color: var(--darker-background-border);
-	--sn-stylekit-secondary-contrast-background-color: var(--current-line);
 	--sn-stylekit-secondary-contrast-foreground-color: var(--foreground);
 	--sn-stylekit-secondary-contrast-border-color: var(--foreground);
 	--sn-stylekit-paragraph-text-color: var(--foreground);
-	--sn-desktop-titlebar-bg-color: var(--background);
-	--sn-desktop-titlebar-border-color: var(--comment);
-	--sn-desktop-titlebar-ui-color: var(--foreground);
-	--sn-desktop-titlebar-ui-hover-color: var(--highlight-color);
 	--sn-stylekit-scrollbar-track-border-color: var(--comment);
 	--sn-stylekit-scrollbar-thumb-color: var(--sn-stylekit-info-color);
 	--sn-stylekit-grey-5: var(--highlight-color);
@@ -68,6 +57,30 @@
 	--sn-stylekit-passive-color-5: #080507;
 
 	--navigation-item-selected-background-color: var(--sn-stylekit-secondary-contrast-background-color);
+
+	/* --sn-desktop-titlebar-bg-color: var(--error); */
+	/* --ui-text-color: var(--color); */
+
+	--sn-component-foreground-color: var(--color);
+	--sn-stylekit-foreground-color: var(--color);
+	--sn-stylekit-neutral-color: var(--color--accent); /* note list card - drag icon ("burger lines" */
+	--sn-stylekit-accessory-tint-color-1: var(--color--accent);
+	--sn-stylekit-info-color: var(--error); /* note list card - pin icon */
+	--sn-stylekit-contrast-foreground-color: var(--color); /* note list card - text color */
+	--sn-stylekit-background-color: var(--background); /* note list - background */
+	--sn-stylekit-secondary-foreground-color: var(--background); /* note list - text color */
+	--sn-stylekit-secondary-background-color: var(--error); /* aside menu bar */
+	--sn-stylekit-secondary-border-color: var(--error);
+	--sn-stylekit-border-color: var(--error);
+	--sn-stylekit-secondary-contrast-background-color: var(--color--accent);
+
+	--sn-desktop-titlebar-bg-color: var(--error);
+	--sn-desktop-titlebar-border-color: var(--very-dark-acsent);
+	--sn-desktop-titlebar-ui-color: var(--danger);
+	--sn-desktop-titlebar-ui-hover-color: var(--acsent);
+
+	--sn-stylekit-neutral-contrast-color: var(--success);
+	--sn-stylekit-contrast-background-color: var(--error); /* background color of - title bar, footer, note list card */
 }
 
 .sn-component .sk-panel .sk-panel-footer .left {
@@ -76,4 +89,34 @@
 
 #plus-editor label kbd {
 	background-color: var(--sn-stylekit-background-color);
+}
+
+/* DARK Theme */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background: #0c0c0c;
+		--color: #e0f2e9;
+
+		--border: 1px solid hsla(0, 0%, 100%, 0.16);
+		--color-default: #20202a;
+		--color-primary: #93c0ff;
+		--color-primary-opacity-8: rgba(147, 192, 255, 0.08);
+		--color-neutral: #181818;
+		--color-neutral-darker: #20202a;
+		--color-contrast: #fff;
+		--color-contrast-opacity-8: hsla(0, 0%, 100%, 0.08);
+		--color-contrast-opacity-16: hsla(0, 0%, 100%, 0.16);
+		--color-contrast-opacity-36: hsla(0, 0%, 100%, 0.36);
+		--color-contrast-opacity-86: hsla(0, 0%, 100%, 0.86);
+		--post-code-background-color: #20202a;
+		--post-code-border-color: #20202a;
+
+		--sn-component-foreground-color: var(--color);
+		--sn-stylekit-foreground-color: var(--color);
+
+		--sn-desktop-titlebar-bg-color: var(--error);
+		--sn-desktop-titlebar-border-color: var(--very-dark-acsent);
+		--sn-desktop-titlebar-ui-color: var(--danger);
+		--sn-desktop-titlebar-ui-hover-color: var(--acsent);
+	}
 }

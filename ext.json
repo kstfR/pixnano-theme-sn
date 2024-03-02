@@ -3,15 +3,14 @@
 	"name": "PixNano",
 	"content_type": "SN|Theme",
 	"area": "themes",
-	"version": "1.0.0",
+	"version": "0.0.1",
 	"description": "A PixNano theme for Standard Notes",
 	"url": "https://cdn.jsdelivr.net/gh/kstfR/pixnano-theme-sn@latest/src/main.css",
 	"latest_url": "https://cdn.jsdelivr.net/gh/kstfR/pixnano-theme-sn@latest/ext.json",
 	"dock_icon": {
 		"type": "circle",
-		"background_color": "#ffec21",
-		"foreground_color": "#ffec21",
+		"background_color": "#ff00ff",
+		"foreground_color": "#000000",
 		"border_color": "#bd93f9"
-	},
-	"statusBar": "dark-content"
+	}
 }
