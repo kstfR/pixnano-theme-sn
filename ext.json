@@ -5,8 +5,8 @@
 	"area": "themes",
 	"version": "0.0.1",
 	"description": "A PixNano theme for Standard Notes",
-	"url": "https://cdn.jsdelivr.net/gh/kstfR/pixnano-theme-sn@latest/src/main.css",
-	"latest_url": "https://cdn.jsdelivr.net/gh/kstfR/pixnano-theme-sn@latest/ext.json",
+	"url": "https://cdn.jsdelivr.net/gh/kstfR/pixnano-theme-sn@v0.0.1/src/main.css",
+	"latest_url": "https://cdn.jsdelivr.net/gh/kstfR/pixnano-theme-sn@v0.0.1/ext.json",
 	"dock_icon": {
 		"type": "circle",
 		"background_color": "#0c0c0c",
