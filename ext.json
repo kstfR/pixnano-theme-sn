@@ -3,10 +3,10 @@
 	"name": "PixNano",
 	"content_type": "SN|Theme",
 	"area": "themes",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "A PixNano theme for Standard Notes",
-	"url": "https://cdn.jsdelivr.net/gh/kstfR/pixnano-theme-sn@v0.0.1/src/main.css",
-	"latest_url": "https://cdn.jsdelivr.net/gh/kstfR/pixnano-theme-sn@v0.0.1/ext.json",
+	"url": "https://cdn.jsdelivr.net/gh/kstfR/pixnano-theme-sn@v0.0.2/src/main.css",
+	"latest_url": "https://cdn.jsdelivr.net/gh/kstfR/pixnano-theme-sn@v0.0.2/ext.json",
 	"dock_icon": {
 		"type": "circle",
 		"background_color": "#0c0c0c",
