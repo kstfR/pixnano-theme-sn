@@ -5,9 +5,8 @@
 	"area": "themes",
 	"version": "1.0.0",
 	"description": "A PixNano theme for Standard Notes",
-	"url": "https://cdn.jsdelivr.net/gh/dracula/standard-notes@2.0.1/dist/dist.css",
-	"latest_url": "https://cdn.jsdelivr.net/gh/dracula/standard-notes@master/ext.json",
-	"download_url": "https://github.com/dracula/standard-notes/archive/2.0.1.zip",
+	"url": "https://cdn.jsdelivr.net/gh/kstfR/pixnano-theme-sn/src/main.css",
+	"latest_url": "https://cdn.jsdelivr.net/gh/kstfR/pixnano-theme-sn/ext.json",
 	"dock_icon": {
 		"type": "circle",
 		"background_color": "#bd93f9",
