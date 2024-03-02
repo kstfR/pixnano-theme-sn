@@ -25,3 +25,4 @@
 
 // git tag v0.0.1
 // git push origin v0.0.1
+// https://git-scm.com/book/en/v2/Git-Basics-Tagging (for deleting and stuff..)
